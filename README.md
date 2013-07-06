@@ -2,6 +2,8 @@
 
 ### Esta extensão permite habilitar uma notificação de que o e-mail informado não existe para clientes que tentam recuperar suas senhas.
 
+* Por padrão, o magento não diz ao cliente se o e-mail digitado é válido ou não e ele fica sem saber se o e-mail digitado é o mesmo usado em outro cadastro ou se a recuperação de senha falhou. Com este modulo o magento informará o cliente se o e-mail digitado não existir.
+
 ## Recursos
 * Pode ser habilitado ou desabilitado em Sistema -> Configurações -> Cliente -> Configuração -> Opções de senha (System->Configuration->Customers->Customer Configuration->Password Options).
 * Arquivos de tradução. Disponível em inglês e português (br)
