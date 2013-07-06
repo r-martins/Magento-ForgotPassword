@@ -1,4 +1,4 @@
-# Forgot Password - Melhorias
+# Esqueci minha senha - Melhorias
 
 ### Esta extensão permite habilitar uma notificação de que o e-mail informado não existe para clientes que tentam recuperar suas senhas.
 
