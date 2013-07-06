@@ -29,4 +29,4 @@ Ou faça manualmente:
 * Primeiro release
 
 ## Autor
-[Ricardo Martins](http://ricardomartins.net.br/)  (<ricardo.martins@ricardomartins.net.br>)
+[Ricardo Martins](http://ricardomartins.net.br/)  (<ricardo@ricardomartins.net.br>)
