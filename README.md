@@ -15,7 +15,7 @@
 ### Instalar com [modgit](https://github.com/jreinke/modgit)
     $ cd path/to/magento
     $ modgit init
-    $ modgit clone forgotpassword git@github.com:r-martins/Magento-ForgotPassword.git
+    $ modgit add forgotpassword git@github.com:r-martins/Magento-ForgotPassword.git
 
 Ou faça manualmente:
 
