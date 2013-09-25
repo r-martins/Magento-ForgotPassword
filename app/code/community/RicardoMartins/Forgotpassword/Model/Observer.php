@@ -5,8 +5,9 @@ class RicardoMartins_Forgotpassword_Model_Observer
 
     public function beforeForgotpasswordPostAction($observer)
     {
-        if (!Mage::getStoreConfigFlag('customer/password/show_no_exist_notice'))
+        if (!Mage::getStoreConfigFlag('customer/password/show_no_exist_notice')) {
             return;
+        }
 
         $email = (string) $observer->getRequest()->getPost('email');
         $customer = Mage::getModel('customer/customer')
