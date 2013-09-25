@@ -24,9 +24,7 @@ class RicardoMartins_Forgotpassword_Model_Observer
 
     public function hookToControllerActionPreDispatch($observer)
     {
-        if ($observer->getEvent()->getControllerAction()->getFullActionName() == 'customer_account_forgotpasswordpost') {
-            Mage::dispatchEvent("customer_action_forgotpassword_before", array('request' => $observer->getControllerAction()->getRequest()));
-        }
+        Mage::dispatchEvent("customer_action_forgotpassword_before", array('request' => $observer->getControllerAction()->getRequest()));
     }
 
 }

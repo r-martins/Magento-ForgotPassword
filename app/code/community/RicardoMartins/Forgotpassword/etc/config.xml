@@ -28,14 +28,14 @@
             </modules>
         </translate>
         <events>
-            <controller_action_predispatch>
+            <controller_action_predispatch_customer_account_forgotpasswordpost>
                 <observers>
                     <controller_action_before>
                         <class>forgotpassword/observer</class>
                         <method>hookToControllerActionPreDispatch</method>
                     </controller_action_before>
                 </observers>
-            </controller_action_predispatch>
+            </controller_action_predispatch_customer_account_forgotpasswordpost>
             <customer_action_forgotpassword_before>
                 <observers>
                     <customer_action_forgotpassword_before>
