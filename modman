@@ -1,0 +1,6 @@
+app/code/community/RicardoMartins/Forgotpassword/etc/config.xml app/code/community/RicardoMartins/Forgotpassword/etc/config.xml
+app/code/community/RicardoMartins/Forgotpassword/etc/system.xml app/code/community/RicardoMartins/Forgotpassword/etc/system.xml
+app/code/community/RicardoMartins/Forgotpassword/Helper/Data.php app/code/community/RicardoMartins/Forgotpassword/Helper/Data.php
+app/code/community/RicardoMartins/Forgotpassword/Model/Observer.php app/code/community/RicardoMartins/Forgotpassword/Model/Observer.php
+app/etc/modules/RicardoMartins_Forgotpassword.xml app/etc/modules/RicardoMartins_Forgotpassword.xml
+app/locale/pt_BR/RicardoMartins_Forgotpassword.csv app/locale/pt_BR/RicardoMartins_Forgotpassword.csv
