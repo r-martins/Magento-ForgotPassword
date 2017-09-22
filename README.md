@@ -10,12 +10,17 @@
 * Utiliza observers ao invés de sobrescrever clases e controllers.
 
 ## Instalação
-### Testado no 1.7 (mas deve funcionar em outras versões)
+### Testado no 1.7 e 1.9 (mas deve funcionar em outras versões)
 
 ### Instalar com [modgit](https://github.com/jreinke/modgit)
     $ cd path/to/magento
     $ modgit init
     $ modgit add forgotpassword git@github.com:r-martins/Magento-ForgotPassword.git
+
+### Instalar com [modman](https://github.com/colinmollenhour/modman/)
+    $ cd path/to/magento
+    $ modman clone git@github.com:r-martins/Magento-ForgotPassword.git
+
 
 Ou faça manualmente:
 
